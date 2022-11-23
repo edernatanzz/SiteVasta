@@ -1,0 +1,119 @@
+:root {
+    --color-write: #ffff;
+    --color--dark1: #272727;
+    --color--dark2: #9b9494;
+    --color--dark3: #414141;
+    --color--dark4: #1c1c1c;
+    --color--dark5: hsl(0, 75%, 51%);
+
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    font-size: arial, helvetica, sans-serif;
+    background-color: var(--color--dark4);
+    color: var(--color-write);
+
+}
+
+.class-rom-logo {
+    width: 75x;
+    cursor: pointer;
+
+}
+.class-rom-header,
+.class-rom-navegatorheader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.class-rom-header {
+    background-color: var(--color-write);
+    box-shadow: 1px 1px 4px var(--color--dark4);
+    height: 3.5em;
+    justify-content: space-between;
+    padding: 0 2%;
+
+}
+
+.class-rom-navegatorheader{
+    gap: 1em;
+
+}
+.class-rom-navegatorheader a {
+    text-decoration: none;
+    color:var(--color--dark4);
+    font-weight: bold;
+
+
+}
+    #butonBusca{
+cursor: pointer;
+       
+    }
+
+
+#txtBusca {
+    background-color: transparent;
+    padding-left: 9px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+
+}
+
+.class-rom-sobre{
+
+   padding: 10px;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+
+.class-rom-content{
+
+padding: 0 2%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 100%;
+background-image: url("img/black-and-white-exterior-building.jpg");
+background-size: 1200px ;
+height: 400px;
+
+
+}
+h1{
+
+    color: #1c1c1c;
+    font-size: 50px;
+   
+}
+h2{
+   font-size: 27px;
+    color:var(--color--dark2);
+}
+
+.class-rom-buton2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+     padding: 0 2%;
+     background-color: rgb(100, 160, 10);
+     width:160px;
+     height:55px;
+     color: #ffff;
+     cursor: pointer;
+     outline: none;
+     border: none;
+     
+}
