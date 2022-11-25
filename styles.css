@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
 :root {
     --color-write: #ffff;
     --color--dark1: #272727;
@@ -18,9 +20,7 @@
 }
 
 main {
-    width: 1320px;
-    float: left;
-    position: relative;
+    height: auto;
 
 }
 
@@ -83,7 +83,7 @@ body {
 
 .class-rom-body {
     padding: 0 2%;
-    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     width: 100%;
     background-image: url("img/pexels-matthias-zomer-313736.jpg");
     background-size: contain;
@@ -97,7 +97,7 @@ body {
 
 
 .class-rom-buton2 {
-    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
     padding: 0 2%;
     background-color: rgb(100, 160, 10);
@@ -133,18 +133,18 @@ body {
 }
 
 p1 {
-    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
     text-align: justify;
     width: 100%;
     padding: 0 2%;
     font-size: 18px;
     color: black;
-   
+
 }
 
 p2 {
-    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
     text-align: justify;
     width: 100%;
@@ -154,7 +154,7 @@ p2 {
 }
 
 p3 {
-    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -166,7 +166,7 @@ p3 {
 }
 
 p4 {
-    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: row;
 
@@ -175,22 +175,46 @@ p4 {
     color: black;
 
 }
-p5{
-    font-family:  'Arial Narrow', Arial, sans-serif;
+
+p5 {
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 12px;
     text-align: justify;
     top: 50%;
     color: black;
-    width: 25%;
+    width: 172px;
+    margin-left: -10px;
 }
 
+p7 {
+    color: white;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+p8 {
+    height: 45px;
+    color: white;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: -19px;
+}
+
+
+
 a {
-    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     padding: 0 0.5%;
 }
 
 .class-rom-butonsaibamais {
-    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
     padding: 0 2%;
     background-color: rgb(104, 102, 204);
@@ -208,35 +232,37 @@ a {
 
 
 h1 {
-    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     color: #1c1c1c;
     font-size: 50px;
 
 }
 
 h2 {
-    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 27px;
     color: var(--color--dark2);
 }
-h3{
+
+h3 {
     margin-top: 3%;
     height: 1.5em;
     text-align: center;
     position: relative;
-    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
     color: black;
     text-align: center;
     font-weight: 900;
     top: 40%;
 }
+
 h5 {
     margin-top: 3%;
     height: 2.5em;
     text-align: center;
     position: relative;
-    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
     color: black;
     text-align: center;
@@ -247,81 +273,99 @@ h6 {
     height: 2.5em;
     text-align: center;
     position: relative;
-    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
     color: black;
     text-align: center;
     font-weight: 900;
 }
-h7{
-    font-family:  'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-    text-align: start;
-    top: 50%;
-    color: black;
-}
-h8{
-   
-    text-align:start;
-    width: 50%;
-    font-size: 12px;
-    color: black;
-    
-}
 
-h9{
-    font-family:  'Arial Narrow', Arial, sans-serif;
+h7 {
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     text-align: start;
     top: 50%;
     color: black;
 }
 
-h10{
-    text-align:start;
+h8 {
+
+    text-align: start;
     width: 50%;
     font-size: 12px;
     color: black;
- 
-    
+
 }
 
-h11{
-    font-family:  'Arial Narrow', Arial, sans-serif;
+h9 {
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     text-align: start;
     top: 50%;
     color: black;
-   
 }
 
-h12{
-    text-align:start;
+h10 {
+    text-align: start;
     width: 50%;
     font-size: 12px;
     color: black;
-    
+
+
 }
 
-h13{
-        height: 2.5em;
-        text-align: center;
-        position: relative;
-        font-family:  'Arial Narrow', Arial, sans-serif;
-        font-size: 40px;
-        color: black;
-        text-align: center;
-        font-weight: 900;
-        top: 40%;
-    
+h11 {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-align: start;
+    top: 50%;
+    color: black;
+
+}
+
+h12 {
+    text-align: start;
+    width: 50%;
+    font-size: 12px;
+    color: black;
+
+}
+
+h13 {
+    height: 2.5em;
+    text-align: center;
+    position: relative;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+    top: 40%;
+
+}
+
+
+
+h17 {
+    margin-left: -200px;
+    margin-top: 100px;
+    font-family: 'Blippo', fantasy;
+    font-size: 50px;
+}
+
+.class-rom-h16 {
+
+    margin-top: 60px;
+    line-height: 20px;
+
 }
 
 .class-wapper-portfolioimg {
     max-width: 1280px;
-    display:flex; 
+    display: flex;
     flex-direction: row;
-  align-items: flex-end;
-    
+    align-items: flex-end;
+
 
 
 
@@ -330,7 +374,7 @@ h13{
 .class-rom-portfolioimg {
     width: 270px;
     height: 250px;
-padding:  2%;
+    padding: 2%;
 
 }
 
@@ -339,7 +383,7 @@ padding:  2%;
 
 
 .class-rom-butonprojetos {
-    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
     padding: 15px 30px;
     background-color: rgb(104, 102, 204);
@@ -352,7 +396,7 @@ padding:  2%;
 }
 
 .container-button {
-    width: 100%;
+    width: 90em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -360,120 +404,130 @@ padding:  2%;
     border: 40px;
     height: 280px;
     margin-top: -7.9em;
+    margin-left: 2em;
 }
 
 
 
 
 
-.class-rom-depoimentosheader{
-    width: 1280px;
-    height:250px ;
+.class-rom-depoimentosheader {
+
     text-align: center;
-   
-    }
+
+}
 
 
-td{
-    margin-top: 7%;
-    
+td {
+    margin-top: 1em;
+
     color: black;
 }
-table{
-    margin-left: 5%;
-}
-.class-rom-positionimg{
-    margin-left: 15%;
+
+table {
+    margin-left: 5em;
 }
 
-.class-rom-setas{
+.class-rom-positionimg {
+    margin-left: 15em;
+}
+
+.class-rom-setas {
     cursor: pointer;
 }
 
-.class-rom-setafinal{
-   margin-left: -185%;
-   cursor: pointer;
-}
-.class-rom-infodp{
-    
-        display: flex;
-    
-        flex-direction: column;
-        top: 90%;
-        left: 50%;
-        margin-right: -50%;
-        
+.class-rom-setafinal {
+    margin-left: -185%;
+    cursor: pointer;
 }
 
-.class-rom-headercontato{
-   
-        width: 1280px;
-        height:150px ;
-        text-align: center;
+.class-rom-infodp {
+
+    display: flex;
+
+    flex-direction: column;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+
 }
 
-.class-rom-wapper input{
-  display: flex;
-  align-items: center;
-    margin : 10px ;
+.class-rom-headercontato {
+
+
+    text-align: center;
+
+
+}
+
+.class-rom-wapper input {
+    display: flex;
+    align-items: center;
+    margin: 10px;
     height: 30%;
- 
+
     font-size: 15px;
-    
-    }
 
-    .class-rom-wapper{
-       
-      height: 120px;
-     margin-left: 15%;
-        display: flex;
-        align-items:center;
+}
 
-        position: relative;
-        
-        margin-top: 10;
-    }
-    .wapper-nome,
-    .wapper-sobrenome,
-    .wapper-email {
-        margin-left: 6%;
-        width: 270px;
+.class-rom-wapper {
 
-    }
+    height: 120px;
+    margin-left: 15%;
+    display: flex;
+    align-items: center;
 
-.class-rom-wapper2{
+    position: relative;
+
+    margin-top: 10;
+}
+
+.wapper-nome,
+.wapper-sobrenome,
+.wapper-email {
+    margin-left: 6%;
+    width: 270px;
+
+}
+
+.class-rom-wapper2 {
     height: 130px;
     margin-left: 15%;
-       display: flex;
-       align-items:center;
-       position: relative;
-       margin-top: -5%;   
-    }
-    .wapper-mensagem{
-        display: flex;
-        position: relative;
-        text-align: justify;
-        height: 100px;
-        width: 420px;
-      margin-top: 7%;
-      margin-left: 1%;
-    }
-    .wapper-telefone{
-        width: 388px;
-        height: 35px;
-        margin-left: 4%;
-    }
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: -5%;
 
-    .class-rom-wapper3{
-        display: flex;
-        flex-direction: row;
-    }
-    .class-rom-wapper3{
-        margin-left: 51.5%;
-        margin-top: -2%;
-    }
-.wapper-button{
-    font-family:  'Arial Narrow', Arial, sans-serif;
+}
+
+.wapper-mensagem {
+    display: flex;
+    position: relative;
+    text-align: justify;
+    height: 100px;
+    width: 420px;
+    margin-top: 7%;
+    margin-left: 1%;
+}
+
+.wapper-telefone {
+    width: 388px;
+    height: 35px;
+    margin-left: 4%;
+}
+
+.class-rom-wapper3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.class-rom-wapper3 {
+    margin-left: 51.5%;
+    margin-top: -2%;
+}
+
+.wapper-button {
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
     background-color: rgb(100, 160, 10);
     width: 150px;
@@ -482,23 +536,101 @@ table{
     cursor: pointer;
     outline: none;
     border: none;
-    margin-left: 5%;
+    margin-left: 35px;
 
 }
 
+form {
+    height: 40px;
+}
 
 
+h14 {
+    font-size: 2vw;
+    text-transform: uppercase;
 
-    @media screen and (max-width: 1024px) {
+}
 
-        #logo{
-            position: absolute;
-            left: 50px;
-        }
-        }
-    
-h14{
-font-size: 2vw;
-text-transform: uppercase;
+section {
+    height: 350px;
+}
 
+.class-rom-footer {
+    padding-top: 1%;
+    width: 100%;
+    height: 400px;
+    background-color: #1c1c1c;
+    line-height: 30px;
+
+}
+
+.class-rom-footer-col {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    line-height: 80px;
+    padding: 3em;
+
+}
+
+.class-rom-footer-menu2 {
+
+    display: flex;
+
+}
+
+.class-rom-menu {
+
+    margin-left: 680px;
+    margin-top: -120px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+
+}
+
+.class-rom-buttoninscrever {
+
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 0 2%;
+    background-color: rgb(100, 160, 10);
+    width: 150px;
+    height: 43px;
+    color: #ffff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.class-rom-caixaemail {
+    width: 150px;
+    height: 40px;
+
+}
+
+.class-rom-aling {
+    display: flex;
+    display: flex;
+    align-items: unset;
+
+}
+
+.class-rom-link {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.class-rom-footer-col {
+    margin-left: 7%;
+    margin-top: 5;
+}
+
+.class-rom-footer-menu3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1080px;
+    margin-top: -150px;
 }
