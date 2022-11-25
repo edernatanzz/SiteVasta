@@ -10,7 +10,6 @@
 
 
 
-
 * {
     margin: 0;
     padding: 0;
@@ -18,9 +17,16 @@
 
 }
 
+main {
+    width: 1320px;
+    float: left;
+    position: relative;
+
+}
+
 body {
     font-size: arial, helvetica, sans-serif;
-    background-color: var(--color--dark4);
+
     color: var(--color-write);
 
 }
@@ -30,8 +36,10 @@ body {
     cursor: pointer;
 
 }
+
 .class-rom-header,
 .class-rom-navegatorheader {
+    font-size: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -39,81 +47,458 @@ body {
 
 .class-rom-header {
     background-color: var(--color-write);
-    box-shadow: 1px 1px 4px var(--color--dark4);
-    height: 3.5em;
+    height: 5.5em;
     justify-content: space-between;
     padding: 0 2%;
 
 }
 
-.class-rom-navegatorheader{
-    gap: 1em;
+.class-rom-navegatorheader {
+    gap: 2em;
 
 }
+
 .class-rom-navegatorheader a {
     text-decoration: none;
-    color:var(--color--dark4);
+    color: var(--color--dark4);
     font-weight: bold;
 
 
 }
-    #butonBusca{
-cursor: pointer;
-       
+
+#butonBusca {
+    cursor: pointer;
+
+}
+
+.class-rom-sobre {
+
+    padding: 1%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.class-rom-body {
+    padding: 0 2%;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    background-image: url("img/pexels-matthias-zomer-313736.jpg");
+    background-size: contain;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+
+.class-rom-buton2 {
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding: 0 2%;
+    background-color: rgb(100, 160, 10);
+    width: 280px;
+    height: 55px;
+    color: #ffff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+
+}
+
+
+
+.class-rom-imgsobre {
+    padding: 0 2%;
+    display: flex;
+    width: 400px;
+    height: 280px;
+
+}
+
+
+.class-rom-sobre {
+
+    display: flex;
+    flex-direction: row-reverse;
+    flex-direction: row;
+    align-items: flex-start;
+
+
+}
+
+p1 {
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    width: 100%;
+    padding: 0 2%;
+    font-size: 18px;
+    color: black;
+   
+}
+
+p2 {
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    width: 100%;
+    padding: 0 1%;
+    font-size: 18px;
+    color: black;
+}
+
+p3 {
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 30%;
+    padding: 0 1%;
+    font-size: 18px;
+    color: black;
+
+}
+
+p4 {
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+
+    text-align: justify;
+    font-size: 18px;
+    color: black;
+
+}
+p5{
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    top: 50%;
+    color: black;
+    width: 25%;
+}
+
+a {
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    padding: 0 0.5%;
+}
+
+.class-rom-butonsaibamais {
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding: 0 2%;
+    background-color: rgb(104, 102, 204);
+    width: 250px;
+    height: 55px;
+    color: #ffff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position: relative;
+    left: 60%;
+    margin-left: -306%;
+    margin-top: 80%;
+}
+
+
+h1 {
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    color: #1c1c1c;
+    font-size: 50px;
+
+}
+
+h2 {
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+    color: var(--color--dark2);
+}
+h3{
+    margin-top: 3%;
+    height: 1.5em;
+    text-align: center;
+    position: relative;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+    top: 40%;
+}
+h5 {
+    margin-top: 3%;
+    height: 2.5em;
+    text-align: center;
+    position: relative;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+}
+
+h6 {
+    height: 2.5em;
+    text-align: center;
+    position: relative;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+}
+h7{
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-align: start;
+    top: 50%;
+    color: black;
+}
+h8{
+   
+    text-align:start;
+    width: 50%;
+    font-size: 12px;
+    color: black;
+    
+}
+
+h9{
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-align: start;
+    top: 50%;
+    color: black;
+}
+
+h10{
+    text-align:start;
+    width: 50%;
+    font-size: 12px;
+    color: black;
+ 
+    
+}
+
+h11{
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-align: start;
+    top: 50%;
+    color: black;
+   
+}
+
+h12{
+    text-align:start;
+    width: 50%;
+    font-size: 12px;
+    color: black;
+    
+}
+
+h13{
+        height: 2.5em;
+        text-align: center;
+        position: relative;
+        font-family:  'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        color: black;
+        text-align: center;
+        font-weight: 900;
+        top: 40%;
+    
+}
+
+.class-wapper-portfolioimg {
+    max-width: 1280px;
+    display:flex; 
+    flex-direction: row;
+  align-items: flex-end;
+    
+
+
+
+}
+
+.class-rom-portfolioimg {
+    width: 270px;
+    height: 250px;
+padding:  2%;
+
+}
+
+
+
+
+
+.class-rom-butonprojetos {
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding: 15px 30px;
+    background-color: rgb(104, 102, 204);
+    color: #ffff;
+    cursor: pointer;
+    outline: none;
+    border: transparent;
+    margin-top: 6%;
+
+}
+
+.container-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    border: 40px;
+    height: 280px;
+    margin-top: -7.9em;
+}
+
+
+
+
+
+.class-rom-depoimentosheader{
+    width: 1280px;
+    height:250px ;
+    text-align: center;
+   
     }
 
 
-#txtBusca {
-    background-color: transparent;
-    padding-left: 9px;
-    font-style: italic;
-    font-size: 18px;
-    border: none;
-
+td{
+    margin-top: 7%;
+    
+    color: black;
+}
+table{
+    margin-left: 5%;
+}
+.class-rom-positionimg{
+    margin-left: 15%;
 }
 
-.class-rom-sobre{
-
-   padding: 10px;
-   border-radius: 10px;
-   -webkit-border-radius: 10px;
-   -moz-border-radius: 10px;
-   -ms-border-radius: 10px;
-   -o-border-radius: 10px;
+.class-rom-setas{
+    cursor: pointer;
 }
 
-.class-rom-content{
-
-padding: 0 2%;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-width: 100%;
-background-image: url("img/black-and-white-exterior-building.jpg");
-background-size: 1200px ;
-height: 400px;
-
-
+.class-rom-setafinal{
+   margin-left: -185%;
+   cursor: pointer;
 }
-h1{
+.class-rom-infodp{
+    
+        display: flex;
+    
+        flex-direction: column;
+        top: 90%;
+        left: 50%;
+        margin-right: -50%;
+        
+}
 
-    color: #1c1c1c;
-    font-size: 50px;
+.class-rom-headercontato{
    
-}
-h2{
-   font-size: 27px;
-    color:var(--color--dark2);
+        width: 1280px;
+        height:150px ;
+        text-align: center;
 }
 
-.class-rom-buton2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.class-rom-wapper input{
+  display: flex;
+  align-items: center;
+    margin : 10px ;
+    height: 30%;
+ 
     font-size: 15px;
-     padding: 0 2%;
-     background-color: rgb(100, 160, 10);
-     width:160px;
-     height:55px;
-     color: #ffff;
-     cursor: pointer;
-     outline: none;
-     border: none;
-     
+    
+    }
+
+    .class-rom-wapper{
+       
+      height: 120px;
+     margin-left: 15%;
+        display: flex;
+        align-items:center;
+
+        position: relative;
+        
+        margin-top: 10;
+    }
+    .wapper-nome,
+    .wapper-sobrenome,
+    .wapper-email {
+        margin-left: 6%;
+        width: 270px;
+
+    }
+
+.class-rom-wapper2{
+    height: 130px;
+    margin-left: 15%;
+       display: flex;
+       align-items:center;
+       position: relative;
+       margin-top: -5%;   
+    }
+    .wapper-mensagem{
+        display: flex;
+        position: relative;
+        text-align: justify;
+        height: 100px;
+        width: 420px;
+      margin-top: 7%;
+      margin-left: 1%;
+    }
+    .wapper-telefone{
+        width: 388px;
+        height: 35px;
+        margin-left: 4%;
+    }
+
+    .class-rom-wapper3{
+        display: flex;
+        flex-direction: row;
+    }
+    .class-rom-wapper3{
+        margin-left: 51.5%;
+        margin-top: -2%;
+    }
+.wapper-button{
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    background-color: rgb(100, 160, 10);
+    width: 150px;
+    height: 55px;
+    color: #ffff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-left: 5%;
+
+}
+
+
+
+
+    @media screen and (max-width: 1024px) {
+
+        #logo{
+            position: absolute;
+            left: 50px;
+        }
+        }
+    
+h14{
+font-size: 2vw;
+text-transform: uppercase;
+
 }
